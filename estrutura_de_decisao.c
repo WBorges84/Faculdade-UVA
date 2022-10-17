@@ -25,18 +25,7 @@ main
 
     else
         printf("todos os numeros sao diferentes");
-    {
-        /* code */
-    }
-    
-    {
-        /* code */
-    }
-    
-    {
-        /* code */
-    }
-    
+  
 
 
 }
