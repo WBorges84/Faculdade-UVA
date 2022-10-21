@@ -9,15 +9,15 @@ int main()
     char *txt;
     setlocale(LC_ALL, "Portuguese");
     printf("\n\t Calculadora AV1\n\n");
-    printf("\n Digite o primeiro valor a ser calculado.\n");
+    printf("\n Digite o primeiro valor a ser calculado.\n ->");
     scanf("%f", &v1);
-    printf("\n Digite o segundo valor a ser calculado.\n");
+    printf("\n Digite o segundo valor a ser calculado.\n ->");
     scanf("%f", &v2);
     printf("\n O que deseja fazer com os valores digitados?\n\n");
     printf("Opcao 1 - SOMA \n");
     printf("Opcao 2 - SUBTRAÇÃO \n");
     printf("Opcao 3 - MuLTIPLICAÇÃO \n");
-    printf("Opcao 4 - DIVISÃO \n\n");
+    printf("Opcao 4 - DIVISÃO \n\n ->");
     scanf("%d", &opc);
 
     if (opc == 1)
@@ -43,8 +43,7 @@ int main()
     	result = v1 / v2;	
     	txt = "DIVISÃO";
   		}	
-        
-      
+    
     printf("\n\t ******* Escolhido a %s", txt);
     printf(" o resultado É : %.1f *******\n\n", result);
     

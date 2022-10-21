@@ -1,12 +1,12 @@
 #include <stdio.h>
-//#include <stdlib.h>
+#include <stdlib.h>
 #include <locale.h>
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
-    float media, a1, a2;
     
+    float media, a1, a2;
+ 	setlocale(LC_ALL, "Portuguese");
     printf("\n \t Media\n\n");
     
     printf("Digite a nota 1 Ex: 5.5\n");
@@ -18,11 +18,11 @@ int main()
     media = (a1 + a2) / 2;
     if (media >= 7)
     {
-        printf("\n Sua media Ã©:. %.2f", media);
+        printf("\n Sua media é: %.2f", media);
         printf(" Voce esta APROVADO!!");
     } else
     {
-        printf("\n Sua media Ã©: %.2f", media);
+        printf("\n Sua media é: %.2f", media);
         printf(" Infelizmente REPROVADO" );
     }
     
