@@ -9,9 +9,9 @@ int main()
     char *txt;
     setlocale(LC_ALL, "Portuguese");
     printf("\n\t Calculadora AV1\n\n");
-    printf("\n Digite o primeiro valor a ser calculado\n");
+    printf("\n Digite o primeiro valor a ser calculado.\n");
     scanf("%f", &v1);
-    printf("\n Digite o segundo valor a ser calculado\n");
+    printf("\n Digite o segundo valor a ser calculado.\n");
     scanf("%f", &v2);
     printf("\n O que deseja fazer com os valores digitados?\n\n");
     printf("Opcao 1 - SOMA \n");
