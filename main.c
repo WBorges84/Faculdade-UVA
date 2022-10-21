@@ -34,23 +34,6 @@
 
     printf("O resultado e = %f", result);
 
-    {
-        /* code */
-    }
-    
-    {
-        /* code */
-    }
-    
 
-
-    {
-        /* code */
-    }
-    
-    {
-        /* code */
-    }
-    
 
 }
