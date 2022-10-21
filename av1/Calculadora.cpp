@@ -3,9 +3,9 @@
 #include <locale.h>
 int main()
 {
-    float v1, v2,soma, subtracao,multiplicacao,divisao, result;
+    float v1, v2,soma, subtracao, multiplicacao, divisao, result;
     int opc;
-    char txt[20];
+    char *txt;
     setlocale(LC_ALL, "Portugues");
     printf("\n\t Calculadora AV1");
     printf("\n Digite o primeiro valor a ser calculado\n");
@@ -20,26 +20,6 @@ int main()
     printf("Opcao 4 - DIVISAO \n\n");
     scanf("%d", opc);
 
-    if (opc = 1)
-        result = v1 + v2;
-          
-    
-    if (opc = 2)
-        result = v1 - v2;
-         
-
-    if (opc = 3)
-        result = v1 * v2;
-        
-
-    if (opc = 4)
-        result = v1 / v2;
-        
-
-    printf("De acordo com sua escolha o resultado eh : %.1f" , result);         
-    
-
-
-    
+	printf("opcao %f", v1);   
 }
 
