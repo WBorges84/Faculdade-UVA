@@ -8,7 +8,7 @@ int main()
     int opc;
     char *txt;
     setlocale(LC_ALL, "Portuguese");
-    printf("\n\t Calculadora AV1");
+    printf("\n\t Calculadora AV1\n\n");
     printf("\n Digite o primeiro valor a ser calculado\n");
     scanf("%f", &v1);
     printf("\n Digite o segundo valor a ser calculado\n");
@@ -44,7 +44,7 @@ int main()
     	txt = "DIVISÃO";
   		}	
         
-        
+      
     printf("\n\t ******* Escolhido a %s", txt);
     printf(" o resultado é : %.1f *******\n\n", result);
     
