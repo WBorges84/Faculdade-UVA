@@ -46,7 +46,7 @@ int main()
         
       
     printf("\n\t ******* Escolhido a %s", txt);
-    printf(" o resultado é : %.1f *******\n\n", result);
+    printf(" o resultado É : %.1f *******\n\n", result);
     
 	return 0;    
 }
