@@ -17,7 +17,7 @@
     printf("Digite o promeiro valor: \n ");
     scanf("%f", &var1);
 
-    printf("Digite o segundo valor: \n");
+    printf("Digite o segundo valor: \n ");
     scanf("%f", &var2);
 
     if (opc == 1)

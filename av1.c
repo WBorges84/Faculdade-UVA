@@ -8,7 +8,8 @@ int main()
     int opc;
     char *txt;
     setlocale(LC_ALL, "Portuguese");
-    printf("\n\t Calculadora AV1\n\n");
+    printf("\n\t Calculadora AV1\n");
+    printf("\tOBS.: Prenchimento ex: 5.5 \n\n");
     printf("\n Digite o primeiro valor a ser calculado.\n ->");
     scanf("%f", &v1);
     printf("\n Digite o segundo valor a ser calculado.\n ->");
@@ -45,7 +46,7 @@ int main()
   		}	
     
     printf("\n\t ******* Escolhido a %s", txt);
-    printf(" o resultado É : %.1f *******\n\n", result);
+    printf(" o resultado É : %.2f *******\n\n", result);
     
 	return 0;    
 }
