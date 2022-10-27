@@ -19,6 +19,16 @@ while(c < 46)
    v2 = next; 
 }
 
+switch (expression)
+{
+case /* constant-expression */:
+    /* code */
+    break;
+
+default:
+    break;
+}
+
 
     return 0;
 } 

@@ -1,0 +1,31 @@
+Algoritmo "PseudoCódigo Fibonecc"
+
+//ALUNO : WILLIAN BORGES DE MELLO
+//Matricula : 20224301080 
+//TURMA : 2022.4 
+
+Var v1, v2, next ,c, val : inteiro
+
+Inicio
+
+      v1 <- 34;
+      v2 <- 55;
+      c  <- 2;
+
+      escreval ("Digite a quantidade ")
+      leia(val)
+      
+      escreval (v1)
+      escreval (v2)
+      
+  para c de 2 ate val faca
+     next <- v1 + v2;
+     escreval (next)
+     v1 <- v2;
+     v2 <- next;
+     c <- c + 1;
+  fimpara
+
+
+
+Fimalgoritmo

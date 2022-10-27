@@ -7,9 +7,11 @@ int main()
     float v1, v2,soma, subtracao, multiplicacao, divisao, result;
     int opc;
     char *txt;
-    setlocale(LC_ALL, "Portuguese");
-    printf("\n\t Calculadora AV1\n");
-    printf("\tOBS.: Prenchimento ex: 5.5 \n\n");
+    setlocale(LC_ALL, "Portuguese");    
+    printf("\n\n\tAluno: Willian Borges de Mello\n");
+    printf("\tMatricula: 20224301080\n");
+    printf("\tTurma: 2022.4 \n\n");
+    printf("\n\t *--* Calculadora AV1 *--*\n\n");
     printf("\n Digite o primeiro valor a ser calculado.\n ->");
     scanf("%f", &v1);
     printf("\n Digite o segundo valor a ser calculado.\n ->");
