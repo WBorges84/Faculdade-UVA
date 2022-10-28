@@ -11,7 +11,7 @@ int main()
     printf("\n\n\tAluno: Willian Borges de Mello\n");
     printf("\tMatricula: 20224301080\n");
     printf("\tTurma: 2022.4 \n\n");
-    printf("\n\t *--* Calculadora AV1 *--*\n\n");
+    printf("\n\t *--* Calculadora AVA 1 *--*\n\n");
     printf("\n Digite o primeiro valor a ser calculado.\n ->");
     scanf("%f", &v1);
     printf("\n Digite o segundo valor a ser calculado.\n ->");

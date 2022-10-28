@@ -14,8 +14,7 @@ int main(void)
     printf("\nO numero %d e par. \n",n1);
   else
     printf("\nO numero %d e impar. \n",n1);
-  
-  //getch();
+
   return(0);
 }
 
