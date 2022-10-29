@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis
+    num1,num2, prox, cont, valor : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   num1 <- 34;
+   num2 <- 55;
+   cont <- 2;
+     escreval (num1)
+     escreval (num2)
+ 
+ para cont de 1 ate 20 faca // no lugar do 30 coloca o valor que quiser.
+     prox <- num1 + num2;   // 30 é a quantidade de termos.
+
+     escreval (prox)
+     num1 <- num2;
+     num2 <- prox;
+     cont <- cont + 1;
+ fimpara
+ 
+Fimalgoritmo

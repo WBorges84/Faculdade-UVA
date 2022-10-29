@@ -37,6 +37,4 @@ Inicio
      termo <- termo + 1;
   fimpara
 
-
-
 Fimalgoritmo
