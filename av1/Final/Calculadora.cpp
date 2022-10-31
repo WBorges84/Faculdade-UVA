@@ -72,9 +72,9 @@ while (op != 0)
         printf("\n\t ******* Escolhido a %s", txt);
         printf(" o resultado É : %.2f *******\n\n", rSoma);
         printf("*******Outras opções*******\n\n");
-        printf(" SUBTRAÇÃO o resultado É : %.2f\n", rSub);
+        printf("     SUBTRAÇÃO o resultado É : %.2f\n", rSub);
         printf(" MULTIPLICAÇÃO o resultado É : %.2f\n", rMul);
-        printf(" DIVISÃO o resultado É : %.2f\n", rDiv);
+        printf("       DIVISÃO o resultado É : %.2f\n", rDiv);
         
         break;
 
@@ -83,9 +83,9 @@ while (op != 0)
         printf("\n\t ******* Escolhido a %s", txt);
         printf(" SUBTRAÇÃO o resultado É : %.2f\n\n", rSub);        
         printf("*******Outras opções*******\n\n");
-        printf(" SOMA o resultado É : %.2f \n", rSoma);
+        printf("          SOMA o resultado É : %.2f \n", rSoma);
         printf(" MULTIPLICAÇÃO o resultado É : %.2f\n", rMul);
-        printf(" DIVISÃO o resultado É : %.2f\n", rDiv);
+        printf("       DIVISÃO o resultado É : %.2f\n", rDiv);
         break;
 		
 	case 3:
@@ -93,9 +93,9 @@ while (op != 0)
         printf("\n\t ******* Escolhido a %s", txt);
         printf(" o resultado É : %.2f\n\n", rMul);        
         printf("*******Outras opções*******\n\n");
-        printf(" SOMA o resultado É : %.2f \n", rSoma);
+        printf("      SOMA o resultado É : %.2f \n", rSoma);
         printf(" SUBTRAÇÃO o resultado É : %.2f\n", rSub);
-        printf(" DIVISÃO o resultado É : %.2f\n", rDiv);
+        printf("   DIVISÃO o resultado É : %.2f\n", rDiv);
         break;
 		
 	case 4:;
@@ -103,8 +103,8 @@ while (op != 0)
         printf("\n\t ******* Escolhido a %s", txt);
         printf(" o resultado É : %.2f\n\n", rDiv);                
         printf("*******Outras opções*******\n\n");
-        printf(" SOMA o resultado É : %.2f \n", rSoma);
-        printf(" SUBTRAÇÃO o resultado É : %.2f\n", rSub);
+        printf("         SOMA o resultado É : %.2f \n", rSoma);
+        printf("     SUBTRAÇÃO o resultado É : %.2f\n", rSub);
         printf(" MULTIPLICAÇÃO o resultado É : %.2f\n", rMul);
         
         break;		    
