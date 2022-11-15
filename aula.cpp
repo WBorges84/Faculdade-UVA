@@ -1,26 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <locale.h>
+int main()
+{
 
-int main(){
-    
-    int num=0, n1, n2, n3;
-    
-    printf("----------------------------\n");
-    printf("Escreva um numero de 1 a 3 :\n");
-            scanf("%d", &num);
-    
-    switch (num){
-        case 1:
-            printf("Numero incorreto!\n", &n1);
-            break;
-        case 2:
-            printf("Numero incorreto!\n", &n2);
-            break;
-        case 3:
-            printf("Parabens numero correto!\n", &n3);
-            break;
-        default:
-            printf("ERRO!!!\n");
-            break;            
-                  
-    }
+float n1, n2, resultado1, resultado2, resultado3, resultado4;
+setlocale(LC_ALL,"Portuguese");
+
+printf("\nEscreva um número:");
+scanf("%f", &n1);
+
+printf("\nEscreva mais um número:");
+scanf("%f", &n2);
+
+resultado1= n1 + n2;
+resultado2= n1 - n2;
+resultado3= n1 * n2;
+resultado4= n1 / n2;
+
+printf("\n%f + %f = %f", n1, n2, resultado1);
+printf("\n%f - %f = %f", n1, n2, resultado2);
+printf("\n%f * %f = %f", n1, n2, resultado3);
+printf("\n%f / %f = %f", n1, n2, resultado4);
+
+return 0;
+
+
 }
